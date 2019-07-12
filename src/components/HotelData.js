@@ -81,7 +81,7 @@ render(){
              */}
              <Button onClick={() => this.addTocart(post) } variant="contained" style={{         width: '100%',
              margin: '6px',    marginLeft: '-5px'}}color="primary" >
-                 Find Food
+                 Add To Cart
                </Button>
                </div>
 ))}</div> 
@@ -109,7 +109,7 @@ item added to cart
         {/* <button onClick={() => this.removeFromCart(post) }>Reamove from cart</button> */}
         <Button onClick={() => this.removeFromCart(post) } variant="contained" style={{         width: '100%',
              margin: '6px',    marginLeft: '-5px'}}color="primary" >
-                 Find Food
+                Remove From Cart
                </Button>
             </div>
 ))} </div> 
