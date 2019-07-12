@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Header from './Header';
 import MediaCard from './Dishes';
+import Button from '@material-ui/core/Button';
 import ImgMediaCard from './HotelCard';
 import Grid from '@material-ui/core/Grid';
-
+import './HotelData.css';
 
 // function Greeting(cartItems) {
 //   const isLoggedIn = cartItems;
@@ -60,18 +61,13 @@ render(){
       <div className="container" >
          <Header/>
          <ImgMediaCard location={this.props.posts.hotelOneData}/>
-<div><h1>{this.props.posts.hotelOneData.hotelID}</h1></div>
-           <div>{this.props.posts.hotelOneData.name}</div>
+
+          
 {/* <CenteredGrid/> */}
-<Grid
-  container
-  direction="row"
-  justify="flex-start"
-  alignItems="flex-start"
->
+
 
         <div >{this.props.posts.hotelOneData.dishes.map((post,i) => (
-            <div style={{border:'1px solid blue'}} key={i}>
+            <div className="dishesh" key={i}>
               
               <div>{post.dishID}</div>
               <div>{post.dishPrice}</div>
@@ -81,8 +77,13 @@ render(){
               {/* <button onClick={this.IncrementItem}>+</button>
               <h2>{ this.state.clicks }</h2>
         <button onClick={this.DecreaseItem}>-</button> */}
-        <button onClick={() => this.addTocart(post) }>Add to cart</button>
-            </div>
+        {/* <button onClick={() => this.addTocart(post) }>Add to cart</button>
+             */}
+             <Button onClick={() => this.addTocart(post) } variant="contained" style={{         width: '100%',
+             margin: '6px',    marginLeft: '-5px'}}color="primary" >
+                 Find Food
+               </Button>
+               </div>
 ))}</div> 
                  
                  
@@ -90,26 +91,30 @@ render(){
 
 
 
-   </Grid>
 
-<div style={{border:'1px solid blue',minHeight:'112px',width:'22p'}} >
+
+<div className="cartdata">
 item added to cart
 
 
- {this.props.cartItems===false?(<h1>NO data</h1>):(<div><h1>Data is pressent</h1>
+ {this.props.cartItems===false?(<h1>NO data</h1>):(
  
   <div  >{this.props.cartItems.map((post,i) => (
-            <div  key={i}>
+            <div className="dishesh" key={i}>
               
-              <div>{post.dishID}</div>
-              <div>{post.dishPrice}</div>
-              <div>{post.name}</div>
+              <label>{post.name}</label>
+              <label>{post.dishPrice}</label>
+             
             
-        <button onClick={() => this.removeFromCart(post) }>Reamove from cart</button>
+        {/* <button onClick={() => this.removeFromCart(post) }>Reamove from cart</button> */}
+        <Button onClick={() => this.removeFromCart(post) } variant="contained" style={{         width: '100%',
+             margin: '6px',    marginLeft: '-5px'}}color="primary" >
+                 Find Food
+               </Button>
             </div>
 ))} </div> 
  
- </div>)}
+ )}
  
 
 

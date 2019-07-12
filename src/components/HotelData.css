@@ -1,0 +1,13 @@
+.dishesh{
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+    background-color: #fff;
+    margin-bottom: 22px;
+    margin-left: 13px;
+    margin-top: 17px;
+    margin-right: 13px; 
+    padding-left: 12px;
+}
+.cartdata{
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+    background-color: #fff;
+}
