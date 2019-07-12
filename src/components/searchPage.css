@@ -1,0 +1,88 @@
+@media only screen and (max-device-width: 980px){
+    .container{
+        border-bottom: 1px solid; 
+        /* padding: 12px; */
+       
+}
+    .header{
+         border-bottom: 1px solid lightgray;
+        padding: 26px;
+        min-height: 2em;
+        /* padding-left: 0px; */
+}
+.location-search{
+    border-bottom: 1px solid lightgray; 
+       padding: 13px;
+    /* padding-left: 0px; */
+}
+.header-logo{
+    font-size: 25px;
+    min-height: 3em;
+    padding-left: 0px;
+}
+.search-icons{
+    float: right;
+    font-size: 25px;
+    margin-top: -11px;
+
+}
+
+
+.header1 {
+    padding: 20px
+  }
+  
+  nav {
+    width: 100%;
+    margin: 0;
+    top: 0;
+    background: #212121;
+    color: #ccc;
+    z-index: 199;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    height: 100%;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background: #848484;
+    color: #212121;
+  }
+  
+  .fixed-nav {
+    position: fixed;
+    top: 0px;
+    z-index: 88;
+    background-color: #ffffff;
+    width: 100%;
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+  }
+  
+  .content {
+    width: -webkit-fill-available;
+    margin: 0 auto;
+    text-align: justify;
+    padding-top: 20px;
+  }
+  
+  .content > div {
+    margin: 10px 0;
+  }
+
+}

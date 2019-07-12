@@ -1,0 +1,52 @@
+.card{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    padding: 184px;
+    background-size: cover;
+    /* background: url(https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=631&q=80)  */
+
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.label-onsearch{
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+}
+.h1-label{
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    line-height: 44px;
+}
+ @media only screen and (max-device-width: 480px){
+
+    .card {
+    
+    display: flex;
+    justify-content: center;
+    padding: 44px;
+    background-size: cover;
+     /* background: url(https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=631&q=80);  */
+
+
+    }
+    
+} 
