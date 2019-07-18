@@ -14,7 +14,7 @@ const rootReducer = combineReducers({
       addToCartReucer
     })
 const store = createStore(rootReducer,applyMiddleware(thunk));
-console.log('store',store.getState())
+//console.log('store',store.getState())
 ReactDOM.render(
 <Provider store={store}>
 

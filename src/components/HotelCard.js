@@ -17,7 +17,7 @@ const useStyles = makeStyles({
 
 export default function ImgMediaCard(location,dishes) {
     //console.log("dishes-->",dishes);
-    console.log("dishes-->",location);
+   // console.log("dishes-->",location);
   const classes = useStyles();
 
   return (

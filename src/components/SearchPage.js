@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './searchPage.css';
-import Button from '@material-ui/core/Button';
-import Icon from '@material-ui/core/Icon';
+
 import ImgMediaCard from './HotelCard';
 import Header from './Header';
 

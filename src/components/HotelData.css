@@ -11,3 +11,30 @@
     box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
     background-color: #fff;
 }
+.label-dishesh{
+    font-size: 1.2rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 100;
+    line-height: 1.33;
+    letter-spacing: 0em;
+}
+.view-cart{
+    padding: 16px;
+    display: flex;
+    color:white;
+    background-color: rgb(62, 153, 32);;
+    justify-content: space-between;
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+}
+.view-cart-left-side{
+    padding: 3px;
+    min-width: 4%;
+
+    padding-left: 7px;
+    border: 1px solid white;
+}
+.view-cart-right-side{
+   
+    font-weight: 500;
+  
+}

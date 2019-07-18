@@ -33,7 +33,7 @@ class Header extends Component {
         return (
             <div>
             <div className="header" style={{  }}>
-          <label className="header-logo">Ubear Eats
+          <label className="header-logo">Foodie
            </label>
           <Button type="submit" variant="contained" style={{
             float: 'right'
